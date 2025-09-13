@@ -1,0 +1,20 @@
+CREATE TABLE videos (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  uuid TEXT NOT NULL UNIQUE,
+  filename TEXT NOT NULL,
+  original_filename TEXT NOT NULL,
+  storage_path TEXT NOT NULL,
+  title TEXT,
+  description TEXT,
+  mime_type TEXT NOT NULL,
+  width INTEGER,
+  height INTEGER,
+  duration_seconds INTEGER,
+  size_bytes INTEGER,
+  uploaded_by TEXT NOT NULL,
+  privacy TEXT NOT NULL DEFAULT 'public',
+  view_count INTEGER DEFAULT 0,
+  thumbnail_url TEXT,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);

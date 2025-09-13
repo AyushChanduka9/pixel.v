@@ -1,0 +1,1 @@
+-- This migration cleans up old sample data - no rollback needed
