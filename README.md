@@ -2,6 +2,8 @@
 
 Website:- https://z6clxbeewhsig.mocha.app/
 
+video link:https://drive.google.com/drive/folders/14BSVdPa6v93PFox10EwqSJU4aB7BSZtH
+
 **Next-generation image management platform powered by AI and edge computing**
 
 PixelVault is a modern, high-performance image gallery and media platform built for the edge. It combines advanced AI capabilities with lightning-fast global delivery to provide an exceptional image management experience.
